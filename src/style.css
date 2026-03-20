@@ -1,0 +1,13 @@
+/* style.css */
+canvas {
+  position: fixed; /* Keeps the cube on screen while you scroll */
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+body {
+  margin: 0;
+  height: 400vh; /* This creates the "length" needed to scroll */
+  background-color: #000;
+}
